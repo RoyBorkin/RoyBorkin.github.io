@@ -1,0 +1,36 @@
+Uri: https://fonts.googleapis.com/css?display=swap&family=Comfortaa:300,300italic,700,700italic,400,400italic
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMDrMfJQ.ttf
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\s\comfortaa\v40\1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMDrMfJQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfJQ.ttf
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\s\comfortaa\v40\1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfJQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LDrMfJQ.ttf
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\s\comfortaa\v40\1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LDrMfJQ.ttf
+Content Type: font/ttf
+
+Uri: https://royborkin.crd.co/
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\index.htm
+Content Type: text/html
+
+Uri: https://royborkin.crd.co/assets/images/apple-touch-icon.png?v=9a5e92f9
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\assets\images\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://royborkin.crd.co/assets/images/favicon.png?v=9a5e92f9
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://royborkin.crd.co/assets/images/image02.png?v=9a5e92f9
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\assets\images\image02.png
+Content Type: image/png
+
+Uri: https://static.elfsight.com/platform/platform.js
+File Name: C:\Downloaded Web Sites\royborkin.crd.co\platform\platform.js
+Content Type: application/javascript
+

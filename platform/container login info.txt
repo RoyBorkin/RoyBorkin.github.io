@@ -1,0 +1,7 @@
+host name: borkinhost
+username: borkin
+password: irborkin2
+
+Portainer :9000
+username: borkin / admin
+password: 31645729Rb!!
