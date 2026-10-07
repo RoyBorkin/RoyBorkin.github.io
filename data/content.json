@@ -4,7 +4,9 @@
   "template": "lab",
   "variant": 1,
   "theme": {
-    "overrides": {},
+    "overrides": {
+      "bg": "#000000"
+    },
     "fontDisplay": "",
     "fontBody": "",
     "fontMono": "",
@@ -474,8 +476,8 @@
     "transition": "blur",
     "speed": 0.6,
     "loop": true,
-    "wheel": true,
-    "swipe": true,
+    "wheel": false,
+    "swipe": false,
     "keys": true,
     "density": 1,
     "cols": {
