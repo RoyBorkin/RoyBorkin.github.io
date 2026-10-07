@@ -8,7 +8,7 @@
     "fontDisplay": "",
     "fontBody": "",
     "fontMono": "",
-    "scale": 1,
+    "scale": 0.9,
     "radius": null,
     "motion": "full",
     "cursor": true,
@@ -35,7 +35,8 @@
       "Industrial Designer",
       "Programmer",
       "Researcher",
-      "Maker"
+      "Maker",
+      "Acoustician"
     ],
     "tagline": "I merge traditional craft with AI and computational design to engineer data-driven physical products.",
     "location": "Haifa, Israel",
@@ -58,7 +59,7 @@
     {
       "id": "works",
       "label": "My Works",
-      "title": "My works",
+      "title": "My Works",
       "subtitle": "Projects, studio posts and what I share on Instagram and LinkedIn.",
       "enabled": true
     },
@@ -129,7 +130,7 @@
     }
   ],
   "works": {
-    "showFilters": false,
+    "showFilters": true,
     "instagram": {
       "mode": "github",
       "username": "royborkin",
@@ -144,27 +145,14 @@
       {
         "id": "o5u83an",
         "kind": "project",
-        "title": "Carved maple archtop guitar",
-        "date": "2025-06-10",
-        "image": "a:work-archtop",
+        "title": "Vertex guitar",
+        "date": "2026-08-10",
+        "image": "a:s9ba9zg",
         "url": "",
-        "text": "A hollow-body electric with a hand-carved maple top, gold hardware and a vibrato tailpiece. Designed and built end to end.",
+        "text": "The Vertex guitar project stems from advanced academic\nresearch conducted as part of a master's thesis in industrial\ndesign. The project focuses on developing a semi-hollow\nelectric guitar that integrates computational design and\ndigital fabrication technologies to achieve optimal acoustic\nperformance. The core innovation of the Vertex guitar lies\nin its generative internal topography and morphological\ndesign. This complex internal structure is engineered to\nphysically eliminate feedback—a common challenge with\nsemi-hollow guitars. By utilizing precise algorithmic\nmodeling for the resonant chamber, the internal geometry\nprevents feedback without compromising the instrument's\nunique tonal qualities. Ultimately, this project demonstrates\nhow merging advanced manufacturing, generative\nalgorithms, and deep acoustic understanding can push the\nboundaries of traditional instrument design.",
         "tags": [
           "Luthiery",
           "Woodworking"
-        ]
-      },
-      {
-        "id": "axl12b7",
-        "kind": "project",
-        "title": "Parametric prosthetic arm",
-        "date": "2021-09-01",
-        "image": "a:work-prosthesis",
-        "url": "",
-        "text": "Product design for a parametric prosthesis with Tikun Olam Makers, generated from the user's measurements.",
-        "tags": [
-          "Parametric design",
-          "Medical"
         ]
       },
       {
@@ -172,7 +160,7 @@
         "kind": "project",
         "title": "Acoustic guitar build",
         "date": "2024-03-15",
-        "image": "a:work-acoustic",
+        "image": "a:vhyhfxp",
         "url": "",
         "text": "Steel-string acoustic guitar. Edit this card to add the story, materials and process photos.",
         "tags": [
@@ -202,19 +190,6 @@
         "text": "Twisted and forged wire jewelry. Edit this card to add details.",
         "tags": [
           "Metalwork"
-        ]
-      },
-      {
-        "id": "zz3ebps",
-        "kind": "project",
-        "title": "Wooden toy helicopter",
-        "date": "2019-07-12",
-        "image": "a:work-helicopter",
-        "url": "",
-        "text": "A pull-along toy in birch ply with turned wheels. Edit this card to add details.",
-        "tags": [
-          "Toys",
-          "Woodworking"
         ]
       }
     ]
@@ -273,7 +248,7 @@
     ]
   },
   "about": {
-    "photo": "a:h4isjyu",
+    "photo": "a:ti3qoru",
     "bio": "Industrial Designer and Researcher with over a decade of hands-on experience in product development, advanced manufacturing, and cross-disciplinary research. I merge traditional craft with AI and computational design to solve complex challenges. Leveraging expertise in generative modeling and software development, I build data-driven physical products, ranging from parametric medical prosthetics to bespoke musical instruments. Adept at guiding projects from rapid prototyping to finished products, integrating electronics and mechanical engineering for startups and advanced research labs.",
     "stats": [
       {
@@ -461,38 +436,42 @@
   },
   "mix": {
     "bg": "",
-    "nav": "",
-    "menu": "",
-    "contacts": "",
+    "nav": "gravity",
+    "menu": "lab",
+    "contacts": "lab",
     "hero": "",
-    "sections": ""
+    "sections": "",
+    "look": {
+      "nav": "lab:1",
+      "menu": ""
+    }
   },
   "textfx": {
     "on": true,
-    "name": "template",
-    "heads": "template",
-    "body": "template",
+    "name": "blur",
+    "heads": "blur",
+    "body": "blur",
     "speed": 1,
     "stagger": 1,
-    "replay": "always"
+    "replay": "once"
   },
   "cursor": {
-    "style": "ring",
-    "size": 0.7,
-    "color": "",
-    "follow": 0.6,
+    "style": "brackets",
+    "size": 1,
+    "color": "#ffbb00",
+    "follow": 0.8,
     "grow": true,
     "labels": true,
     "label": "View",
     "click": true,
-    "magnetic": 1,
-    "snap": 0.7,
-    "snapReach": 110,
+    "magnetic": 0.5,
+    "snap": 0.8,
+    "snapReach": 135,
     "hideNative": true,
     "image": "a:0vw4jhb"
   },
   "layout": {
-    "transition": "default",
+    "transition": "blur",
     "speed": 0.6,
     "loop": true,
     "wheel": true,
@@ -500,14 +479,27 @@
     "keys": true,
     "density": 1,
     "cols": {
-      "works": {},
+      "works": {
+        "desktop": 6,
+        "laptop": 0,
+        "tabletP": 5,
+        "phoneP": 2,
+        "phoneL": 5
+      },
       "code": {
-        "desktop": 0
+        "desktop": 6,
+        "phoneL": 5,
+        "phoneP": 2,
+        "tabletP": 5,
+        "laptop": 0
       }
     },
     "els": {
       "roles": {
-        "hide": false
+        "p": {
+          "y": -7.5,
+          "x": 7
+        }
       },
       "brand": {
         "x": 0,
@@ -526,29 +518,43 @@
         "o": 1
       },
       "side": {
-        "hide": false
-      },
-      "pitch": {
-        "hide": false
+        "hide": false,
+        "p": {
+          "hide": false
+        }
       },
       "latest": {
-        "hide": false
+        "p": {
+          "y": -12.5
+        }
       },
       "portrait": {
-        "hide": false
+        "p": {
+          "hide": false
+        }
       },
       "slab": {
-        "hide": false,
-        "s": 1.4
+        "y": 8,
+        "s": 1.5,
+        "x": -4.5,
+        "o": 1,
+        "p": {
+          "s": 1.4,
+          "x": 2
+        }
       },
       "stat": {
-        "hide": false
-      },
-      "message": {
-        "hide": false
+        "hide": false,
+        "p": {
+          "y": 8.5,
+          "x": 6.5
+        }
       },
       "dots": {
-        "hide": false
+        "s": 0.95,
+        "p": {
+          "hide": false
+        }
       },
       "traverse:ghost": {
         "hide": false
@@ -558,6 +564,20 @@
       },
       "runway:contactBtn": {
         "hide": false
+      },
+      "deck:footer": {
+        "hide": false
+      },
+      "gravity:help": {
+        "hide": true
+      },
+      "classic:contacts": {
+        "s": 1.2,
+        "x": 2,
+        "p": {
+          "x": 7,
+          "y": -5
+        }
       }
     },
     "secBg": {}
@@ -587,35 +607,11 @@
       "type": "image/webp",
       "path": "assets/img/sketch.webp"
     },
-    "work-acoustic": {
-      "id": "work-acoustic",
-      "name": "work-acoustic.jpg",
-      "type": "image/jpeg",
-      "path": "assets/img/work-acoustic.jpg"
-    },
-    "work-archtop": {
-      "id": "work-archtop",
-      "name": "work-archtop.jpg",
-      "type": "image/jpeg",
-      "path": "assets/img/work-archtop.jpg"
-    },
     "work-furniture": {
       "id": "work-furniture",
       "name": "work-furniture.jpg",
       "type": "image/jpeg",
       "path": "assets/img/work-furniture.jpg"
-    },
-    "work-helicopter": {
-      "id": "work-helicopter",
-      "name": "work-helicopter.jpg",
-      "type": "image/jpeg",
-      "path": "assets/img/work-helicopter.jpg"
-    },
-    "work-prosthesis": {
-      "id": "work-prosthesis",
-      "name": "work-prosthesis.jpg",
-      "type": "image/jpeg",
-      "path": "assets/img/work-prosthesis.jpg"
     },
     "work-rings": {
       "id": "work-rings",
@@ -628,12 +624,6 @@
       "name": "Artboard 3.png",
       "type": "image/webp",
       "path": "assets/img/artboard-3.webp"
-    },
-    "h4isjyu": {
-      "id": "h4isjyu",
-      "name": "Artboard 4.png",
-      "type": "image/webp",
-      "path": "assets/img/artboard-4.webp"
     },
     "qklcrjt": {
       "id": "qklcrjt",
@@ -664,6 +654,24 @@
       "name": "01-templates.png",
       "type": "image/jpeg",
       "path": "assets/img/01-templates.jpg"
+    },
+    "ti3qoru": {
+      "id": "ti3qoru",
+      "name": "Artboard 4 copy 2.png",
+      "type": "image/webp",
+      "path": "assets/img/artboard-4-copy-2.webp"
+    },
+    "s9ba9zg": {
+      "id": "s9ba9zg",
+      "name": "Img5583.jpg",
+      "type": "image/jpeg",
+      "path": "assets/img/img5583.jpg"
+    },
+    "vhyhfxp": {
+      "id": "vhyhfxp",
+      "name": "_DSC0677 - Copy.png",
+      "type": "image/webp",
+      "path": "assets/img/dsc0677-copy.webp"
     }
   }
 }
