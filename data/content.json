@@ -439,13 +439,14 @@
   "mix": {
     "bg": "",
     "nav": "deck",
-    "menu": "lab",
+    "menu": "kinetic",
     "contacts": "kinetic",
     "hero": "",
     "sections": "",
     "look": {
       "nav": "lab:1",
-      "menu": ""
+      "menu": "lab:1",
+      "contacts": "lab:1"
     }
   },
   "textfx": {
@@ -476,7 +477,7 @@
     "transition": "blur",
     "speed": 0.6,
     "loop": true,
-    "wheel": false,
+    "wheel": true,
     "swipe": false,
     "keys": true,
     "density": 1,
@@ -587,7 +588,7 @@
         "p": {
           "y": 0
         },
-        "hide": true
+        "hide": false
       },
       "kinetic:ct0": {
         "s": 1.7,
@@ -595,6 +596,11 @@
         "p": {
           "s": 1.2,
           "y": -0.5
+        }
+      },
+      "nav": {
+        "p": {
+          "o": 1
         }
       }
     },
