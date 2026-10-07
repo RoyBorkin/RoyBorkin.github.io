@@ -236,7 +236,7 @@
         "id": "ckeo5n1",
         "title": "Résumé Studio",
         "text": "Link a web app or upload a single HTML file. It opens right here in a window.",
-        "url": "https://royborkin.github.io/ResumeStudio/",
+        "url": "https://royborkin.github.io/Resume-Studio/",
         "html": "",
         "image": "a:3ecvqoh",
         "date": "2026-01-01",
@@ -256,9 +256,18 @@
         "id": "xbz49on",
         "title": "3D Vase Designe",
         "text": "Sketch the outline of a vase and watch it become a 3D model in real time. When you like what you see, download it as an `.stl` file ready for 3D printing or further editing in Blender, Fusion 360, or any slicer.",
-        "url": "https://royborkin.github.io/VaseDesigner/",
+        "url": "https://royborkin.github.io/Vase-Designer/",
         "html": "",
         "image": "a:p23u5md",
+        "date": "2026-10-07"
+      },
+      {
+        "id": "vn08mu2",
+        "title": "Portfolio Studio",
+        "text": "A builder for one-screen, animated portfolio websites. 23 templates, each in 3 color versions.",
+        "url": "https://royborkin.github.io/Portfolio-Studio/",
+        "html": "",
+        "image": "a:yvbri93",
         "date": "2026-10-07"
       }
     ]
@@ -649,6 +658,12 @@
       "name": "Screenshot 2026-10-07 100533.png",
       "type": "image/jpeg",
       "path": "assets/img/screenshot-2026-10-07-100533.jpg"
+    },
+    "yvbri93": {
+      "id": "yvbri93",
+      "name": "01-templates.png",
+      "type": "image/jpeg",
+      "path": "assets/img/01-templates.jpg"
     }
   }
 }
