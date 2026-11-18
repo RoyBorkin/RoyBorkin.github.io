@@ -478,6 +478,17 @@
         "items": "English, Hebrew, Japanese"
       }
     ],
+    "resumeLabel": "Resume",
+    "resumes": [
+      {
+        "label": "Industrial Designer",
+        "url": "https://drive.google.com/file/d/1W2IUb4iZCngIaRvPFIHlhSEsZfFjFuBU/view?usp=sharing"
+      },
+      {
+        "label": "Programmer ",
+        "url": "https://drive.google.com/file/d/1HXnLZkn6Wt5C6LS5n81Nv6jc7KXlitGQ/view?usp=sharing"
+      }
+    ],
     "resume": {
       "label": "Resume",
       "url": "https://drive.google.com/file/d/1W2IUb4iZCngIaRvPFIHlhSEsZfFjFuBU/view?usp=sharing"
