@@ -3,7 +3,7 @@
 © 2026 Roy Borkin. All rights reserved — the content, text and images of this site.
 The site code (engine, templates) is Portfolio Studio © 2026 Roy Borkin. All rights reserved.
 
-Built with Portfolio Studio. Template: **Lab** (Samurai variant).
+Built with Portfolio Studio. Template: **Classic+** (Charcoal variant).
 
 ## What's inside
 
@@ -12,7 +12,7 @@ index.html              the page (one screen, no scrolling)
 assets/css/engine.css   shared layout, components and motion
 assets/js/content.js    all your content (generated from data/content.json)
 assets/js/engine.js     the site runtime: navigation, paging, embeds, modals
-assets/js/template.js   the "Lab" design
+assets/js/template.js   the "Classic+" design
 assets/img/             your images
 apps/                   mini web apps you uploaded as HTML files
 data/content.json       your content as plain JSON
